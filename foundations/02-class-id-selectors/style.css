@@ -1,0 +1,23 @@
+
+
+.odd {
+    background-color: #FFA8B5;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    
+}
+
+.odd.three {
+    font-size: 23px;
+}
+
+#num2 {
+    font-size: 36px;
+    color: blue;
+
+}
+
+#num4 {
+    background-color: darkseagreen;
+    font-size: 23px;
+    font-weight: bold;
+}
