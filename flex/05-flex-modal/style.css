@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+* {
+  outline: red solid 2px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -15,11 +19,30 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: 600;
+  font-size: large;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 2px;
+}
+
+.icon {
+  flex: 1 1 0;
+}
+
+.inner {
+  display: flex;
+}
+
+.header-cont {
+  display: flex;
 }
 
 .icon {
