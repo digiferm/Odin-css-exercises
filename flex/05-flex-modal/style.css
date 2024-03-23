@@ -30,23 +30,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-<<<<<<< HEAD
   padding: 8px;
-=======
-  gap: 2px;
-}
-
-.icon {
-  flex: 1 1 0;
-}
-
-.inner {
-  display: flex;
-}
-
-.header-cont {
-  display: flex;
->>>>>>> d7a41ca8065edd38fef2f39ca1617b50b2eeccbb
 }
 
 .icon {

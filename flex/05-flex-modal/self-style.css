@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+    background-color: gray;
+    font-family: Roboto, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.modal {
+    background-color: lavenderblush;
+    width: 480px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 8px;
+}
+
+.icon {
+    color: darkslategray;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 8px;
+  }
+
+  .header {
+    display: flex;
+    font-weight: 700;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.close-button {
+        background: #eee;
+        border-radius: 50%;
+        color: #888;
+        font-weight: 400;
+        font-size: 16px;
+        height: 24px;
+        width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 0;
+    } 
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid purple;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+
+button.yes {
+    background: purple;
+}
+
+button.no {
+    background-color: grey ;
+}
+
+.text {
+    margin-bottom: 16px;
+  }
